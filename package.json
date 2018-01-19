@@ -1,0 +1,28 @@
+{
+  "name": "js-hangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrr564/js-hangman.git"
+  },
+  "keywords": [
+    "javascript",
+    "hangman",
+    "constructor"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrr564/js-hangman/issues"
+  },
+  "homepage": "https://github.com/jrr564/js-hangman#readme",
+  "dependencies": {
+    "inquirer": "^5.0.0",
+    "prompt": "^1.0.0"
+  }
+}
