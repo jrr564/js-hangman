@@ -23,6 +23,8 @@
   "homepage": "https://github.com/jrr564/js-hangman#readme",
   "dependencies": {
     "inquirer": "^5.0.0",
+    "node": "^9.4.0",
     "prompt": "^1.0.0"
-  }
+  },
+  "devDependencies": {}
 }
