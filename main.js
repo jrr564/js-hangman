@@ -8,9 +8,13 @@ var Word = require("./word.js");
 var List = require ("./list.js");
 
 //creates variable of word that will be guessed
-module.exports.wordGuess = List.wordToGuess;
+var wordGuess = List.wordToGuess;
+var wordGuess = 
+
+
 //creates lives/guesses left variable
 var lives = 7;
+
 
 // var start = function(){
 // 	console.log("Welcome to Word of the year Hangman!");

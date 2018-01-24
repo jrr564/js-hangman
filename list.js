@@ -1,5 +1,4 @@
 //Trying to export word
-
 //list of words
 var words = [
 	"democracy",
@@ -18,8 +17,9 @@ var words = [
 	"surreal",
 	"feminism"
 	];
-//exports random word from list
+//takes random word from list
 var randomNumber = Math.floor((Math.random()*words.length)+1);
+
 //exports
 module.exports.wordToGuess = words[randomNumber];
 
