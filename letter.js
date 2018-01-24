@@ -1,17 +1,21 @@
 var Letter = function(letterInWord) {
-	//stores letter
-	this.letter = letterInWord;
-	//whether letter can be shown
-	this.show = false;
-	//if false, displays _ . Otherwise, displays letter.
-	this.render = function() {
-		if (this.show === false) {
-			return '_';
-		} else {
-			return this.letter;
-		}
-	} 
-}; 
+  //stores letter
+  this.letter = letterInWord;
+  //whether letter can be shown
+  this.show = false;
+  //if false, displays _ . If true, displays letter.
+  this.render = function() {
+    if (this.show === false) {
+      return '_';
+    } else {
+      return this.letter;
+    }
+  } 
+};
 
-//exports module
+
+// export to use in word.js
 module.exports = Letter;
+
+
+
